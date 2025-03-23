@@ -49,6 +49,6 @@ public class UserController1 {
         user.setCreatorUserId(user.getId());
         user.setCreationTime(LocalDateTime.now());
         userService.save(user); // Save the new user
-        return "redirect:http:localhost:3000/login"; // Redirect to login on success
+        return "redirect:https:parckvansystem.web.app/login"; // Redirect to login on success
     }
 }
